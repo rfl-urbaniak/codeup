@@ -1,11 +1,14 @@
-# Welcome to your Jupyter Book
+# Welcome to Code Up!
 
-This is a small sample book to give you a feel for how book content is
-structured.
-It shows off a few of the major file types, as well as some sample content.
-It does not go in-depth into any particular topic - check out [the Jupyter Book documentation](https://jupyterbook.org) for more information.
+This is a selection of online stepwise materials that I will be developing for the love of my life who decided to 
+try to move with me between continents, with all the fuss that comes with it. In the process, this required her to 
+quit her job and think hard about what she wants to do in the new place. One thing that she decided to try getting into
+coding so this will be my best take at trying to advice her in the beginning of the path of trying this out.
 
-Check out the content pages bundled with this sample book to see more.
+In short, the content of this will be highly personalized and most likely useless to anyone else. 
+
+I love you.
+
 
 ```{tableofcontents}
 ```
