@@ -7,7 +7,7 @@ coding so this will be my best take at trying to advice her in the beginning of 
 
 In short, the content of this will be highly personalized and most likely useless to anyone else. 
 
-I love you.
+G., I love you. 
 
 
 ```{tableofcontents}
