@@ -10,6 +10,19 @@ logo: images/look_inside.jpg
 # See https://jupyterbook.org/content/execute.html
 execute:
   execute_notebooks: force
+  environment:
+    name: codeup
+
+execution:
+  notebook_interface: jupyterbook
+  kernel: python3
+  kernel_spec:
+    name: python3
+    display_name: Python 3
+    language: python
+    env: codeup
+
+
 
 # Define the name of the latex output file for PDF builds
 latex:

@@ -4,4 +4,4 @@
 format: jb-book
 root: intro
 chapters:
-- file: 2024-04
+- file: notebooks/2024-04
