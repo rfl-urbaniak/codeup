@@ -3,5 +3,7 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: notebooks/2024-04
+parts:
+  - caption: April 2024
+    chapters:
+    - file: notebooks/2024-04-03
