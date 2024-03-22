@@ -13,15 +13,11 @@ execute:
   environment:
     name: codeup
 
-execution:
-  notebook_interface: jupyterbook
-  kernel: python3
-  kernel_spec:
-    name: python3
-    display_name: Python 3
-    language: python
-    env: codeup
-
+sphinx:
+  configuration:
+    env:
+      PYTHONPATH: "/home/rafal/miniconda3/envs/codeup/bin/python"
+      PYTHONPATH_EXT: "/home/rafal/miniconda3/envs/codeup/bin/python"
 
 
 # Define the name of the latex output file for PDF builds
