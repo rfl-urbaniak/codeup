@@ -384,7 +384,14 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="april-2024">
+  <div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+</pre></div>
+</div>
+</div>
+</div>
+<section class="tex2jax_ignore mathjax_ignore" id="april-2024">
 <h1>April 2024<a class="headerlink" href="#april-2024" title="Link to this heading">#</a></h1>
 <section id="april-3-2024-basic-bricks-of-introductory-learning">
 <h2>April 3, 2024 - Basic bricks of introductory learning<a class="headerlink" href="#april-3-2024-basic-bricks-of-introductory-learning" title="Link to this heading">#</a></h2>
@@ -393,26 +400,7 @@ systematic group of activites and to intertwine them properly. Start with thinki
 from the following types of activities.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="o">!</span>pip<span class="w"> </span>install<span class="w"> </span>pandas
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Requirement already satisfied: pandas in /home/rafal/miniconda3/envs/codeup/lib/python3.12/site-packages (2.2.1)
-Requirement already satisfied: numpy&lt;2,&gt;=1.26.0 in /home/rafal/miniconda3/envs/codeup/lib/python3.12/site-packages (from pandas) (1.26.4)
-Requirement already satisfied: python-dateutil&gt;=2.8.2 in /home/rafal/miniconda3/envs/codeup/lib/python3.12/site-packages (from pandas) (2.9.0)
-Requirement already satisfied: pytz&gt;=2020.1 in /home/rafal/miniconda3/envs/codeup/lib/python3.12/site-packages (from pandas) (2024.1)
-Requirement already satisfied: tzdata&gt;=2022.7 in /home/rafal/miniconda3/envs/codeup/lib/python3.12/site-packages (from pandas) (2024.1)
-Requirement already satisfied: six&gt;=1.5 in /home/rafal/miniconda3/envs/codeup/lib/python3.12/site-packages (from python-dateutil&gt;=2.8.2-&gt;pandas) (1.16.0)
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
-
-<span class="n">rows_to_add</span> <span class="o">=</span> <span class="p">[</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">rows_to_add</span> <span class="o">=</span> <span class="p">[</span>
     <span class="p">{</span>
         <span class="s2">&quot;activity&quot;</span><span class="p">:</span> <span class="s2">&quot;new_material&quot;</span><span class="p">,</span>
         <span class="s2">&quot;min_duration&quot;</span><span class="p">:</span> <span class="mi">45</span><span class="p">,</span>
@@ -421,7 +409,7 @@ Requirement already satisfied: six&gt;=1.5 in /home/rafal/miniconda3/envs/codeup
     <span class="p">},</span>
     <span class="p">{</span>
         <span class="s2">&quot;activity&quot;</span><span class="p">:</span> <span class="s2">&quot;flashcards_prep&quot;</span><span class="p">,</span>
-        <span class="s2">&quot;min_duration&quot;</span><span class="p">:</span> <span class="mi">20</span><span class="p">,</span>
+        <span class="s2">&quot;min_duration&quot;</span><span class="p">:</span> <span class="mi">15</span><span class="p">,</span>
         <span class="s2">&quot;max_duration&quot;</span><span class="p">:</span> <span class="mi">30</span><span class="p">,</span>
         <span class="s2">&quot;energy&quot;</span><span class="p">:</span> <span class="s2">&quot;medium&quot;</span><span class="p">,</span>
     <span class="p">},</span>
@@ -476,7 +464,7 @@ Requirement already satisfied: six&gt;=1.5 in /home/rafal/miniconda3/envs/codeup
     <tr>
       <th>1</th>
       <td>flashcards_prep</td>
-      <td>20</td>
+      <td>15</td>
       <td>30</td>
       <td>medium</td>
     </tr>
