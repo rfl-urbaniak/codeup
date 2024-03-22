@@ -14,6 +14,9 @@ tests: lint FORCE
 publish: FORCE
 	./scripts/clean.sh
 	jb build --all codeup/
+	git add .
+	git commit -m "update"
+	git push origin main
 	ghp-import -n -p -f codeup/_build/html
 
 
