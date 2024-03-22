@@ -443,22 +443,62 @@ Requirement already satisfied: six&gt;=1.5 in /home/rafal/miniconda3/envs/codeup
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
-<span class="ne">ModuleNotFoundError</span><span class="g g-Whitespace">                       </span>Traceback (most recent call last)
-<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span> <span class="n">line</span> <span class="mi">1</span>
-<span class="ne">----&gt; </span><span class="mi">1</span> <span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
-<span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="n">rows_to_add</span> <span class="o">=</span> <span class="p">[</span>
-<span class="g g-Whitespace">      </span><span class="mi">4</span>     <span class="p">{</span>
-<span class="g g-Whitespace">      </span><span class="mi">5</span>         <span class="s2">&quot;activity&quot;</span><span class="p">:</span> <span class="s2">&quot;new_material&quot;</span><span class="p">,</span>
-   <span class="p">(</span><span class="o">...</span><span class="p">)</span>
-<span class="g g-Whitespace">     </span><span class="mi">22</span>     <span class="p">{</span><span class="s2">&quot;activity&quot;</span><span class="p">:</span> <span class="s2">&quot;fluff&quot;</span><span class="p">,</span> <span class="s2">&quot;min_duration&quot;</span><span class="p">:</span> <span class="mi">30</span><span class="p">,</span> <span class="s2">&quot;max_duration&quot;</span><span class="p">:</span> <span class="mi">60</span><span class="p">,</span> <span class="s2">&quot;energy&quot;</span><span class="p">:</span> <span class="s2">&quot;low&quot;</span><span class="p">},</span>
-<span class="g g-Whitespace">     </span><span class="mi">23</span> <span class="p">]</span>
-<span class="g g-Whitespace">     </span><span class="mi">25</span> <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">rows_to_add</span><span class="p">)</span>
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
 
-<span class="ne">ModuleNotFoundError</span>: No module named &#39;pandas&#39;
-</pre></div>
-</div>
-</div>
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>activity</th>
+      <th>min_duration</th>
+      <th>max_duration</th>
+      <th>energy</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>new_material</td>
+      <td>45</td>
+      <td>90</td>
+      <td>high</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>flashcards_prep</td>
+      <td>20</td>
+      <td>30</td>
+      <td>medium</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>flashcards_review</td>
+      <td>15</td>
+      <td>30</td>
+      <td>medium</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>fluff</td>
+      <td>30</td>
+      <td>60</td>
+      <td>low</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
 </div>
 </section>
 </section>
