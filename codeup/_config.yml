@@ -13,10 +13,9 @@ execute:
 
 
 sphinx:
-  configuration:
-    env:
-      PYTHONPATH: "/home/rafal/miniconda3/envs/codeup/bin/python"
-      PYTHONPATH_EXT: "/home/rafal/miniconda3/envs/codeup/bin/python"
+  builder: "html"
+  config:
+    html_theme: "sphinx_rtd_theme" 
 
 
 # Define the name of the latex output file for PDF builds
