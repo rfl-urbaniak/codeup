@@ -12,12 +12,6 @@ execute:
   execute_notebooks: false #force
 
 
-sphinx:
-  builder: "html"
-  config:
-    html_theme: "sphinx_rtd_theme" 
-
-
 # Define the name of the latex output file for PDF builds
 latex:
   latex_documents:
