@@ -6,4 +6,5 @@ root: intro
 parts:
   - caption: April 2024
     chapters:
-    - file: notebooks/2024-04-03
+    - file: notebooks/day_2
+    - file: notebooks/day_1
