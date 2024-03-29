@@ -8,6 +8,8 @@ In short, the content of this will be highly personalized and most likely useles
 
 G., I love you. 
 
+P.S. The side image is a good metaphor here - someone amazing looking curiously at a strange world with things that might look like annoying monsters but probably aren't.
+
 
 ```{tableofcontents}
 ```
